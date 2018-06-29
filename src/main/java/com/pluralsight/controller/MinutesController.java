@@ -24,7 +24,8 @@ public class MinutesController {
 
 	@Autowired
 	private ExerciseService exerciseService;
-	
+
+	//testing for github
 	@RequestMapping(value = "/addMinutes",  method = RequestMethod.GET)
 	public String getMinutes(@ModelAttribute ("exercise") Exercise exercise) {
 	
